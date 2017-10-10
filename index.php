@@ -16,6 +16,6 @@
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
 
 <!-- Container Information -->
-
+<?php Starkers_Utilities::get_template_parts( array( 'parts/slides/01', 'parts/slides/02', 'parts/slides/03', 'parts/slides/04' ) ); ?>
 
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer') ); ?>

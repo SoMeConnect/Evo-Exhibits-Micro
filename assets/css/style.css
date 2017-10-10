@@ -1053,7 +1053,6 @@ body {
 	left: 0;
 	width: 100%;
 	/* background: url(../images/sliderL.png) center center no-repeat; */
-	
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -1064,10 +1063,10 @@ body {
 	border-right: 3000px solid transparent;
 	bottom: 489px;
 }
-.line4 .Ama {
-	/*margin-top: 121px;
-	margin-bottom: 94px;*/
-}
+/*.line4 .Ama {
+	margin-top: 121px;
+	margin-bottom: 94px;
+}*/
 
 /**/
 .news {
@@ -1167,10 +1166,10 @@ body {
 	margin-top: 26px !important;
 	margin-left: -49px !important;
 }
-.line5 .Ama {
-	/*margin-top: 127px;
-	margin-bottom: 94px;*/
-}
+/*.line5 .Ama {
+	margin-top: 127px;
+	margin-bottom: 94px;
+}*/
 .line5 {
 	position: relative;
 	width: 100%;
@@ -1254,11 +1253,11 @@ textarea:focus {
 .name {
 	margin-bottom: 10px;
 	margin-right: 10px;
-	width: 403px;
+	width: 47.5% !important;
 }
 .Email {
 	margin-bottom: 10px;
-	width: 403px;
+	width: 47.5% !important;
 }
 .Subject {
 	margin-bottom: 10px;

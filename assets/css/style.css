@@ -137,6 +137,9 @@ body {
 	font-size: 100px;
 	font-weight: 700;
 }
+.camera_caption>div {
+	background-color: rgba(0,0,0,0);
+}
 .slicknav_menu {
 	display: none;
 }

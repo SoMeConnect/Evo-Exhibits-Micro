@@ -27,8 +27,8 @@
                     <li><a href="mailto:info@evoexhibits.com"><i class="fa fa-envelope"></i>info@evoexhibits.com</li></a>
                     <li><a href="https://twitter.com/EvoExhibits" target="new"><i class="fa fa-twitter"></i>Twitter</li></a>
                     <li><a href="https://www.facebook.com/evoexhibitsinc" target="new"><i class="fa fa-facebook-square"></i>Facebook</li></a>
-                    <li><a href="http://www.linkedin.com/company/evo-exhibits" target="new"><i class="fa fa-linkedin-square"></i>Linked In</li></a>
-                    <li><a href="http://www.flickr.com/photos/61626021@N05/" target="new"><i class="fa fa-flickr"></i>Flickr</li></a>
+                    <li><a href="https://www.linkedin.com/company/evo-exhibits" target="new"><i class="fa fa-linkedin-square"></i>Linked In</li></a>
+                    <li><a href="https://www.flickr.com/photos/61626021@N05/" target="new"><i class="fa fa-flickr"></i>Flickr</li></a>
                     <li><a href="https://www.youtube.com/channel/UCmATJyiEmHOJpwpGXLrDPVg" target="new"><i class="fa fa-youtube-play"></i>YouTube</li></a>
                 </ul>
             </div>
@@ -69,12 +69,12 @@
                 </div>
                 <div class="soc col-md-12">
                     <ul>
-                        <li class="soc1"><a href="http://www.linkedin.com/company/evo-exhibits" target="new"></a></li>
+                        <li class="soc1"><a href="https://www.linkedin.com/company/evo-exhibits" target="new"></a></li>
                         <li class="soc2"><a href="https://www.facebook.com/evoexhibitsinc" target="new"></a></li>
                         <li class="soc3"><a href="https://twitter.com/EvoExhibits" target="new"></a></li>
-                        <li class="soc4"><a href="http://www.pinterest.com/evoexhibits/" target="new"></a></li>
+                        <li class="soc4"><a href="https://www.pinterest.com/evoexhibits/" target="new"></a></li>
                         <li class="soc6"><a href="https://www.youtube.com/channel/UCmATJyiEmHOJpwpGXLrDPVg" target="new"></a></li>
-                        <li class="soc8"><a href="http://www.flickr.com/photos/61626021@N05/" target=""></a></li>
+                        <li class="soc8"><a href="https://www.flickr.com/photos/61626021@N05/" target=""></a></li>
                     </ul>
                 </div>
             </div>

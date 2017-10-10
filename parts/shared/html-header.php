@@ -24,7 +24,7 @@
 
 <!-- Header Information -->
 <?php wp_head(); ?>
-<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700|Open+Sans:700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700|Open+Sans:700' rel='stylesheet' type='text/css'>
 </head>
 
 <!-- Start Site -->

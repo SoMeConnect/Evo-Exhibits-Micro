@@ -17,16 +17,7 @@
         <div class="row">
             <div class="col-md-9 col-xs-12 forma">
                 <form>
-                    <input type="text" class="col-md-6 col-xs-12 name" name='name' placeholder='Name *'/>
-                    <input type="text" class="col-md-6 col-xs-12 Email" name='Email' placeholder='Email *'/>
-                    <input type="text" class="col-md-12 col-xs-12 Subject" name='Subject' placeholder='Subject'/>
-                    <textarea type="text" class="col-md-12 col-xs-12 Message" name='Message' placeholder='Message *'></textarea>
-                    <div class="cBtn col-xs-12">
-                        <ul>
-                            <li class="clear"><a href="#"><i class="fa fa-times"></i>clear form</a></li>
-                            <li class="send"><a href="#"><i class="fa fa-share"></i>Send Message</a></li>
-                        </ul>
-                    </div>
+                    <?php echo do_shortcode('[contact-form-7 id="15" title="Contact Form"]'); ?>
                 </form>
             </div>
             <div class="col-md-3 col-xs-12 cont">

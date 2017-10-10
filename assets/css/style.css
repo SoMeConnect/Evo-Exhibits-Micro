@@ -1227,9 +1227,14 @@ body {
 
 /**/
 .forma {
-	margin-bottom: -80px;
+	margin-bottom: -40px;
 	z-index: 10;
 	margin-top: 48px;
+}
+.forma input,.forma textarea {
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 .forma input {
 	border-radius: 4px;
@@ -1252,15 +1257,17 @@ textarea:focus {
 }
 .name {
 	margin-bottom: 10px;
-	margin-right: 10px;
-	width: 47.5% !important;
+	max-width: 408px;
 }
 .Email {
 	margin-bottom: 10px;
-	width: 47.5% !important;
+	max-width: 408px;
 }
 .Subject {
 	margin-bottom: 10px;
+	max-width: 816px;
+}
+.Message {
 	max-width: 816px;
 }
 textarea {
@@ -1282,31 +1289,39 @@ textarea {
 	background: #dfdfdf;
 	border: 0;
 }
-.forma .cBtn a {
+.forma .cBtn input {
 	font-family: 'Roboto', 'sans-serif';
 	font-weight: 700;
 	font-size: 13px;
 	color: #fff;
+	background: none;
+	padding: 0;
 }
 .forma .cBtn ul {
-	margin-left: -15px;
+	margin-left: 0px;
 	margin-top: 6px;
 	padding-left: 0;
 	margin-bottom: 0;
 }
 .forma .cBtn ul i {
 	padding-right: 10px;
+	position: absolute;
+	color: #fff;
 }
 .forma .cBtn .clear, .cBtn .send {
 	margin-bottom: 0;
 	margin-top: 4px;
-	padding: 10px;
-	padding-right: 17px;
-	padding-left: 17px
+	padding: 12px;
+	padding-top: 15px;
+	padding-right: 27px;
+	padding-left: 17px;
 }
-.forma .cBtn .clear a, .cBtn .send a {
+.forma .cBtn .clear input, .cBtn .send input {
 	font-family: 'Roboto', 'sans-serif';
 	font-weight: 700;
+	text-transform: uppercase;
+	float: left;
+	margin-left: 15px;
 }
 .forma .cBtn .send {
 	box-shadow: 0px 2px 0px 0px #94d60a;

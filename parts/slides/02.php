@@ -21,7 +21,7 @@
                     <img src="wp-content/themes/evo-microsite/assets/images/connect_icon.png" width="73" height="73" alt=""/>
                     <!--<em class="fa fa-tablet"></em>-->
                     <h4>Connect</h4>
-                    <p id="exhibits">We serve as an extension of your team during the entire process and on the trade show floor. We are here to provide a successful show experience every step of the way.</p>
+                    <p class="exhibits">We serve as an extension of your team during the entire process and on the trade show floor. We are here to provide a successful show experience every step of the way.</p>
                 </div>		
             </div>
         </div>

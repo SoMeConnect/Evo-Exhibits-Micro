@@ -1343,7 +1343,8 @@ textarea {
 }
 #gform_1 #field_1_2,#gform_1 #field_1_4 {
     display: inline-block;
-    width: 50%;
+	width: 50%;
+	margin-top: 0;
 }
 #gform_1 #field_1_4,#gform_1 #field_1_5,#gform_1 #field_1_3 {
     padding-right: 0px;

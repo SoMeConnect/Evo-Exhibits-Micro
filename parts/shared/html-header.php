@@ -27,6 +27,13 @@
 <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700|Open+Sans:700' rel='stylesheet' type='text/css'>
 <link href="https://media.campaigner.com/csb/app_themes/lightning/combobox.campformcombo.css" type="text/css" rel="stylesheet">
 <link href="https://media.campaigner.com/csb/app_themes/lightning/common/fonticons.css" type="text/css" rel="stylesheet">
+
+<script>
+	document.addEventListener( 'wpcf7mailsent', function( event ) {
+		ga('send', 'event', 'Contact Form', 'submit');
+		location = '/contact-thank-you/';
+	}, false );
+</script>
 </head>
 
 <!-- Start Site -->

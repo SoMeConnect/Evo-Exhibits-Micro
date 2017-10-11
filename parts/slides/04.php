@@ -18,11 +18,6 @@
             <div class="col-md-8 col-xs-12 forma">
                 <form>
                     <?php echo do_shortcode('[contact-form-7 id="15" title="Contact Form"]'); ?>
-                    <script type="text/javascript">
-                        document.addEventListener( 'wpcf7mailsent', function( event ) {
-                            location = '/contact-thank-you/';
-                        }, false );
-                    </script>                    
                 </form>
             </div>
             <div class="col-md-4 col-xs-12 cont">
@@ -72,7 +67,7 @@
                         </div>
                         <div class="campaigner" style="display:inline-block;">
                             <form action="https://secure.campaigner.com/CSB/Public/ProcessHostedForm.aspx" enctype="multipart/form-data" id="previewForm" method="post" name="previewForm" target="_blank">
-                                <script type="text/javascript" defer>
+                                <script type="text/javascript" async>
                                     //<![cdata[
                                         var theForm = document.forms['previewForm'];
                                         if (!theForm) {

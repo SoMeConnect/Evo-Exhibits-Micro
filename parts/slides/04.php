@@ -18,6 +18,11 @@
             <div class="col-md-8 col-xs-12 forma">
                 <form>
                     <?php echo do_shortcode('[contact-form-7 id="15" title="Contact Form"]'); ?>
+                    <script type="text/javascript">
+                        document.addEventListener( 'wpcf7mailsent', function( event ) {
+                            location = '/contact-thank-you/';
+                        }, false );
+                    </script>                    
                 </form>
             </div>
             <div class="col-md-4 col-xs-12 cont">

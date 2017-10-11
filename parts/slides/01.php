@@ -20,8 +20,8 @@
                                 <!--<li><a href="#about">About</a></li>-->
                                 <li><a data-scroll href="#news">Videos</a></li>
                                 <li><a data-scroll href="#contact">Contact</a></li>
-                                <li><a href="https://www.exhibitforce.com/v2/backendv3/welcome_.asp" target="new">Manage your exhibits</a></li>
-                                <li class="last"><a href="https://www.hightail.com/u/EvoExhibitsCreativeDepartment"  target="new">Graphics Upload</a></li>
+                                <li><a href="https://www.exhibitforce.com/v2/backendv3/welcome_.asp" target="new" id="welcome_">Manage your exhibits</a></li>
+                                <li class="last"><a href="https://www.hightail.com/u/EvoExhibitsCreativeDepartment" target="new">Graphics Upload</a></li>
                             </ul>
                         </div>
                     </div>

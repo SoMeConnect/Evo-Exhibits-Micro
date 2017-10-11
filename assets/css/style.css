@@ -137,9 +137,9 @@ body {
 	font-size: 100px;
 	font-weight: 700;
 }
-.camera_caption>div {
-	background-color: rgba(0,0,0,0);
-} 
+#home .camera_caption>div {
+    background-color: rgba(0,0,0,0);
+}
 .slicknav_menu {
 	display: none;
 }
@@ -685,7 +685,7 @@ body {
 	right: 0;
 	width: 1170px;
 	height: 254px;
-	left: 367px;
+	left: -18px;
 	top: 55px;
 	content: '';
 	z-index: 30;
@@ -1338,7 +1338,7 @@ textarea {
 /**/
 .cont {
 	margin-top: 44px;
-	margin-left: -33px;
+	/*margin-left: -33px;*/
 	font-family: 'Roboto', 'sans-serif';
 	font-weight: 300;
 	font-size: 13px;
@@ -1576,7 +1576,6 @@ textarea {
 .fr {
 	margin-top: 40px;
 	text-align: center;
-	margin: 40px 0 0 357px;
 }
 .footer a:hover {
 	background: #2f2f2f;

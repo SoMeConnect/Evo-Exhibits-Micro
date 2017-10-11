@@ -45,33 +45,33 @@
             </div>--><!-- //filter_block -->
             <div class="portfolio_block columns3   pretty" data-animated="fadeIn">	
                 <div class="element col-sm-4   gall branding">
-                    <a class="plS" href="https://evoexhibits.exhibit-design-search.com/gallery/default/island-exhibit-designs/55/" rel="prettyPhoto[gallery2]" target="new">
+                    <a class="plS" href="http://evoexhibits.exhibit-design-search.com/gallery/default/island-exhibit-designs/55/" rel="prettyPhoto[gallery2]" target="new">
                         <img class="img-responsive" src="wp-content/themes/evo-microsite/assets/images/prettyPhotoImages/thumb_picDio.jpg" alt="Inlines and Island Exhibit solutions"/>
                     </a>
                     <div class="view project_descr ">
-                        <h3><a href="https://evoexhibits.exhibit-design-search.com/gallery/default/island-exhibit-designs/55/" target="new">Inlines and Islands</a></h3>
+                        <h3><a href="http://evoexhibits.exhibit-design-search.com/gallery/default/island-exhibit-designs/55/" target="new">Inlines and Islands</a></h3>
                         <ul>
                             <li>Small or large, these exhibits make an impact.</li>
                         </ul>
                     </div>
                 </div>
                 <div class="element col-sm-4  gall branding">
-                    <a class="plS" href="https://evoexhibits.exhibit-design-search.com/gallery/default/rental-displays/12/" rel="prettyPhoto[gallery2]" target="new">
+                    <a class="plS" href="http://evoexhibits.exhibit-design-search.com/gallery/default/rental-displays/12/" rel="prettyPhoto[gallery2]" target="new">
                         <img class="img-responsive picsGall" src="wp-content/themes/evo-microsite/assets/images/prettyPhotoImages/thumb_picDynastream.jpg" alt="Rental exhibit solutions"/>
                     </a>
                     <div class="view project_descr center">
-                        <h3><a href="https://evoexhibits.exhibit-design-search.com/gallery/default/rental-displays/12/" target="new">Rentals</a></h3>
+                        <h3><a href="http://evoexhibits.exhibit-design-search.com/gallery/default/rental-displays/12/" target="new">Rentals</a></h3>
                         <ul>
                             <li>A nimble solution to maximize your budget.</li>
                         </ul>
                     </div>
                 </div>
                 <div class="element col-sm-4  gall web">
-                    <a class="plS" href="https://evoexhibits.exhibit-design-search.com/gallery/default/sacagawea-hybrid-displays/49/" rel="prettyPhoto[gallery2]" target="new">
+                    <a class="plS" href="http://evoexhibits.exhibit-design-search.com/gallery/default/sacagawea-hybrid-displays/49/" rel="prettyPhoto[gallery2]" target="new">
                         <img class="img-responsive picsGall" src="wp-content/themes/evo-microsite/assets/images/prettyPhotoImages/thumb_picEton.jpg" alt="Portable display options"/>
                     </a>
                     <div class="view project_descr ">
-                        <h3><a href="https://evoexhibits.exhibit-design-search.com/gallery/default/sacagawea-hybrid-displays/49/" target="new">Portables</a></h3>
+                        <h3><a href="http://evoexhibits.exhibit-design-search.com/gallery/default/sacagawea-hybrid-displays/49/" target="new">Portables</a></h3>
                         <ul>
                             <li>Portable displays and accessories are flexible!</li>
                         </ul>

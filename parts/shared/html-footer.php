@@ -3,7 +3,19 @@
 <?php wp_footer(); ?>
 
 <!-- Custom JavaScript -->
-<script type="text/javascript">
+<script type="text/javascript" charset="utf-8" async>
+    jQuery(document).ready(function($){
+        $(".pretty a[rel^='prettyPhoto']").prettyPhoto({
+            animation_speed:'normal',
+            theme:'light_square',
+            slideshow:3000, 
+            autoplay_slideshow: true, 
+            social_tools: '',
+        });
+    });
+</script>
+
+<script type="text/javascript" defer>
 	jQuery(function($){
         $('#camera_wrap_1').camera({
             transPeriod: 500,
@@ -25,7 +37,7 @@
 </script>
 
 <!-- Google Tag Manager -->
-<script type="text/javascript">
+<script type="text/javascript" async>
     (function(w,d,s,l,i){
         w[l]=w[l]||[];w[l].push({'gtm.start':
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -35,7 +47,7 @@
 </script>
 <!-- End Google Tag Manager -->
 
-<script type="text/javascript">
+<script type="text/javascript" async>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -45,7 +57,7 @@
     ga('send', 'pageview');
 </script>
 
-<script type="text/javascript">
+<script type="text/javascript" defer>
     jQuery(document).ready(function($){
         $(".bhide").click(function(){
             $(".hideObj").slideDown();
@@ -98,13 +110,13 @@
     });
 </script>
 
-<script type="text/javascript">
+<script type="text/javascript" defer>
     jQuery(document).ready(function($){
         $('#menu').slicknav();
     });
 </script>
 
-<script type="text/javascript">
+<script type="text/javascript" defer>
     jQuery(document).ready(function($){
         var $menu = $("#menuF");
         $(window).scroll(function(){
@@ -126,28 +138,28 @@
     //jQuery
 </script>
 
-<script type="text/javascript">
+<script type="text/javascript" defer>
     /*menu*/
-    function calculateScroll() {
-        var contentTop      =   [];
-        var contentBottom   =   [];
-        var winTop      =   $(window).scrollTop();
-        var rangeTop    =   200;
-        var rangeBottom =   500;
-        $('.navmenu').find('a').each(function(){
-            contentTop.push( $( $(this).attr('href') ).offset().top );
-            contentBottom.push( $( $(this).attr('href') ).offset().top + $( $(this).attr('href') ).height() );
-        })
-        $.each( contentTop, function(i){
-            if ( winTop > contentTop[i] - rangeTop && winTop < contentBottom[i] - rangeBottom ){
-                $('.navmenu li')
-                .removeClass('active')
-                .eq(i).addClass('active');				
-            }
-        })
-    };
-    
     jQuery(document).ready(function($){
+        function calculateScroll() {
+            var contentTop = [];
+            var contentBottom = [];
+            var winTop = $(window).scrollTop();
+            var rangeTop = 200;
+            var rangeBottom = 500;
+            $('.navmenu').find('a').each(function(){
+                contentTop.push( $( $(this).attr('href') ).offset().top );
+                contentBottom.push( $( $(this).attr('href') ).offset().top + $( $(this).attr('href') ).height() );
+            })
+            $.each( contentTop, function(i){
+                if ( winTop > contentTop[i] - rangeTop && winTop < contentBottom[i] - rangeBottom ){
+                    $('.navmenu li')
+                    .removeClass('active')
+                    .eq(i).addClass('active');				
+                }
+            })
+        };
+    
         calculateScroll();
         $(window).scroll(function(event) {
             calculateScroll();
@@ -157,14 +169,8 @@
             return false;
         });
     });		
-</script>	
-<script type="text/javascript" charset="utf-8">
-    jQuery(document).ready(function($){
-        $(".pretty a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'normal',theme:'light_square',slideshow:3000, autoplay_slideshow: true, social_tools: ''});
-    });
 </script>
-	
-	
+
 <!-- Google Code for Remarketing Tag -->
 <script type="text/javascript">
     /* <![CDATA[ */
@@ -179,7 +185,6 @@
         <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1049069378/?value=0&amp;guid=ON&amp;script=0"/>
     </div>
 </noscript> -->
-
 
 </body>
 

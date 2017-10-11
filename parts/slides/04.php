@@ -15,19 +15,19 @@
     
     <div class="container">
         <div class="row">
-            <div class="col-md-9 col-xs-12 forma">
+            <div class="col-md-8 col-xs-12 forma">
                 <form>
                     <?php echo do_shortcode('[contact-form-7 id="15" title="Contact Form"]'); ?>
                 </form>
             </div>
-            <div class="col-md-3 col-xs-12 cont">
+            <div class="col-md-4 col-xs-12 cont">
                 <ul>
                     <li><em class="fa fa-home"></em>399 Wegner Drive, West Chicago, IL 60185</li>
                     <li><i class="fa fa-phone"></i>877-390-6559 | 630-634-7675</li>
                     <li><a href="mailto:info@evoexhibits.com"><i class="fa fa-envelope"></i>info@evoexhibits.com</li></a>
                     <li><a href="https://twitter.com/EvoExhibits" target="new"><i class="fa fa-twitter"></i>Twitter</li></a>
                     <li><a href="https://www.facebook.com/evoexhibitsinc" target="new"><i class="fa fa-facebook-square"></i>Facebook</li></a>
-                    <li><a href="https://www.linkedin.com/company/evo-exhibits" target="new"><i class="fa fa-linkedin-square"></i>Linked In</li></a>
+                    <li><a href="https://www.linkedin.com/company/evo-exhibits" target="new"><i class="fa fa-linkedin-square"></i>LinkedIn</li></a>
                     <li><a href="https://www.flickr.com/photos/61626021@N05/" target="new"><i class="fa fa-flickr"></i>Flickr</li></a>
                     <li><a href="https://www.youtube.com/channel/UCmATJyiEmHOJpwpGXLrDPVg" target="new"><i class="fa fa-youtube-play"></i>YouTube</li></a>
                 </ul>
@@ -74,7 +74,7 @@
                         <li class="soc3"><a href="https://twitter.com/EvoExhibits" target="new"></a></li>
                         <li class="soc4"><a href="https://www.pinterest.com/evoexhibits/" target="new"></a></li>
                         <li class="soc6"><a href="https://www.youtube.com/channel/UCmATJyiEmHOJpwpGXLrDPVg" target="new"></a></li>
-                        <li class="soc8"><a href="https://www.flickr.com/photos/61626021@N05/" target=""></a></li>
+                        <li class="soc8"><a href="https://www.flickr.com/photos/61626021@N05/" target="_new"></a></li>
                     </ul>
                 </div>
             </div>
@@ -84,10 +84,10 @@
     <div class="lineBlack">
         <div class="container">
             <div class="row downLine">
-                <div class="col-md-6 text-left copy">
+                <div class="col-md-5 text-left copy">
                     <p>Copyright &copy; 2017 Evo Exhibits, LLC. All Rights Reserved.</p>
                 </div>
-                <div class="col-md-6 text-right dm">
+                <div class="col-md-7 text-right dm">
                     <ul id="downMenu">
                         <li style="color: #FFF;">399 Wegner Dr. West Chicago, IL 60185  |   630.634.7675 |  877.390.6559 TOLL FREE </li>
                     </ul>

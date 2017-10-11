@@ -28,12 +28,6 @@
 <link href="https://media.campaigner.com/csb/app_themes/lightning/combobox.campformcombo.css" type="text/css" rel="stylesheet">
 <link href="https://media.campaigner.com/csb/app_themes/lightning/common/fonticons.css" type="text/css" rel="stylesheet">
 
-<script type="text/javascript" async>
-	document.addEventListener( 'wpcf7mailsent', function( event ) {
-		ga('send', 'event', 'Contact Form', 'submit');
-		location = '/contact-thank-you/';
-	}, false );
-</script>
 </head>
 
 <!-- Start Site -->

@@ -1,60 +1,61 @@
 <!--contact start-->
 
 <div id="contact">
-
-    <div class="line5">					
-        <div class="container">
-            <div class="row Ama">
-                <div class="col-md-12">
-                <h3>Got a Question? We&rsquo;re Here to Help!</h3>
-                <p>Schedule your no-obligation Discovery session today!</p>
+    <?php if(is_page('home')) : ?>
+        <div class="line5">					
+            <div class="container">
+                <div class="row Ama">
+                    <div class="col-md-12">
+                    <h3>Got a Question? We&rsquo;re Here to Help!</h3>
+                    <p>Schedule your no-obligation Discovery session today!</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-xs-12 forma">
-                <form>
-                    <div id="gform_1">
-                        <?php echo do_shortcode('[gravityform id="1" title="false" description="false" ajax="true"]'); ?>
-                    </div>
-                </form>
-            </div>
-            <div class="col-md-4 col-xs-12 cont">
-                <ul>
-                    <li><em class="fa fa-home"></em>399 Wegner Drive, West Chicago, IL 60185</li>
-                    <li><i class="fa fa-phone"></i>877-390-6559 | 630-634-7675</li>
-                    <li><a href="mailto:info@evoexhibits.com"><i class="fa fa-envelope"></i>info@evoexhibits.com</li></a>
-                    <li><a href="https://twitter.com/EvoExhibits" target="new"><i class="fa fa-twitter"></i>Twitter</li></a>
-                    <li><a href="https://www.facebook.com/evoexhibitsinc" target="new"><i class="fa fa-facebook-square"></i>Facebook</li></a>
-                    <li><a href="https://www.linkedin.com/company/evo-exhibits" target="new"><i class="fa fa-linkedin-square"></i>LinkedIn</li></a>
-                    <li><a href="https://www.flickr.com/photos/61626021@N05/" target="new"><i class="fa fa-flickr"></i>Flickr</li></a>
-                    <li><a href="https://www.youtube.com/channel/UCmATJyiEmHOJpwpGXLrDPVg" target="new"><i class="fa fa-youtube-play"></i>YouTube</li></a>
-                </ul>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-xs-12 forma">
+                    <form>
+                        <div id="gform_1">
+                            <?php echo do_shortcode('[gravityform id="1" title="false" description="false" ajax="true"]'); ?>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-4 col-xs-12 cont">
+                    <ul>
+                        <li><em class="fa fa-home"></em>399 Wegner Drive, West Chicago, IL 60185</li>
+                        <li><i class="fa fa-phone"></i>877-390-6559 | 630-634-7675</li>
+                        <li><a href="mailto:info@evoexhibits.com"><i class="fa fa-envelope"></i>info@evoexhibits.com</li></a>
+                        <li><a href="https://twitter.com/EvoExhibits" target="new"><i class="fa fa-twitter"></i>Twitter</li></a>
+                        <li><a href="https://www.facebook.com/evoexhibitsinc" target="new"><i class="fa fa-facebook-square"></i>Facebook</li></a>
+                        <li><a href="https://www.linkedin.com/company/evo-exhibits" target="new"><i class="fa fa-linkedin-square"></i>LinkedIn</li></a>
+                        <li><a href="https://www.flickr.com/photos/61626021@N05/" target="new"><i class="fa fa-flickr"></i>Flickr</li></a>
+                        <li><a href="https://www.youtube.com/channel/UCmATJyiEmHOJpwpGXLrDPVg" target="new"><i class="fa fa-youtube-play"></i>YouTube</li></a>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="line6">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11882.867977535527!2d-88.227435!3d41.877435!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1e001abcde185658!2sEvo+Exhibits!5e0!3m2!1sen!2sus!4v1506976129297" width="100%" height="750" frameborder="0" style="border:0;"></iframe>			
-    </div>
+        <div class="line6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11882.867977535527!2d-88.227435!3d41.877435!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1e001abcde185658!2sEvo+Exhibits!5e0!3m2!1sen!2sus!4v1506976129297" width="100%" height="750" frameborder="0" style="border:0;"></iframe>			
+        </div>
 
-    <!--<div class="container">
-        <div class="row ftext">
-            <div class="col-md-12">
-            <a id="features"></a>
-            <h3>We Care About Our Clients and Can Make Their Life Easier!</h3>
-            <p>The main peculiarity of template is the striking presentation when visitors just need to use the scrolling option to find all necessary information about your web project. </p>
+        <!--<div class="container">
+            <div class="row ftext">
+                <div class="col-md-12">
+                <a id="features"></a>
+                <h3>We Care About Our Clients and Can Make Their Life Easier!</h3>
+                <p>The main peculiarity of template is the striking presentation when visitors just need to use the scrolling option to find all necessary information about your web project. </p>
+                </div>
+                <div class="cBtn">
+                    <ul style="margin-top: 23px; margin-bottom: 0px; padding-left: 26px;">
+                        <li class="dowbload"><a href="#"><i class="fa fa-star"></i>View All Features</a></li>
+                        <li class="buy"><a href="#"><i class="fa fa-download"></i>Buy This Template</a></li>
+                    </ul>
             </div>
-            <div class="cBtn">
-                <ul style="margin-top: 23px; margin-bottom: 0px; padding-left: 26px;">
-                    <li class="dowbload"><a href="#"><i class="fa fa-star"></i>View All Features</a></li>
-                    <li class="buy"><a href="#"><i class="fa fa-download"></i>Buy This Template</a></li>
-                </ul>
-        </div>
-        </div>
-    </div>-->
+            </div>
+        </div>-->
+    <?php endif; ?>
 
     <div class="line7">
         <div class="container">
@@ -162,5 +163,4 @@
             </div>
         </div>
     </div>
-
 </div>		

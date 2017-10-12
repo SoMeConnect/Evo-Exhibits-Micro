@@ -16,11 +16,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-xs-12 forma">
-                    <form>
-                        <div id="gform_1">
-                            <?php echo do_shortcode('[gravityform id="1" title="false" description="false" ajax="true"]'); ?>
-                        </div>
-                    </form>
+                    <div id="gform_1">
+                        <?php echo do_shortcode('[gravityform id="1" title="false" description="false" ajax="true"]'); ?>
+                    </div>
                 </div>
                 <div class="col-md-4 col-xs-12 cont">
                     <ul>
